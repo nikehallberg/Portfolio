@@ -1,3 +1,8 @@
 .about-page {
     padding: 1rem;
 }
+
+img {
+    height: 12rem;
+    position: static;
+}
