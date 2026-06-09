@@ -5,4 +5,5 @@
 img {
     height: 20vw;
     position: static;
+    border-radius: 10rem;
 }

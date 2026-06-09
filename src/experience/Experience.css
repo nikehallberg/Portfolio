@@ -1,3 +1,57 @@
 .experience-page {
-  padding: 1rem;
+  padding: 1.5rem 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
+
+.experience-page h2 {
+  margin: 0;
+}
+
+.experience-page p {
+  margin: 0;
+  color: #555;
+}
+
+.certificates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.certificate-card {
+  width: min(260px, 30vw);
+  min-width: 200px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 18px;
+  padding: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+}
+
+.certificate-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  transform: scale(1.15);
+}
+
+.certificate-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  object-fit: contain;
+  transition: transform 0.25s ease;
+}
+
+/* .certificate-card:hover img {
+  transform: scale(1.20);
+} */
+

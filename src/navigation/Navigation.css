@@ -17,10 +17,17 @@
   font-weight: 600;
   font-size: 1.2em;
 }
-
+.navigation a:active {
+  color: #c9def1;
+}
 .navigation li a {
   text-decoration: none;
   color: rgb(193, 193, 204);
+}
+
+.navigation li a.active,
+.navigation li a[aria-current='page'] {
+  color: #8ac0f0;
 }
 
 .navBar {
@@ -29,5 +36,7 @@
 }
 
 .navigation li a:hover {
-  color: #c9def1
+  color: #c9def1;
 }
+
+

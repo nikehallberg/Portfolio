@@ -12,7 +12,6 @@ const App = () => {
   return (
     <div className='navBar'>
       <Navigation />
-      <h1>Portfolio</h1>
       <div className='page-content'>
         <Routes>
           <Route path='/' element={<Home />} />
